@@ -1,0 +1,96 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+#title {
+  font-family: 'Arvo', serif;
+  margin: 20px 0;
+  font-size: 3rem;
+  color: #ff6363;
+}
+
+#set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Sound Display */
+#sound-display {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+button.drum {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button.drum:active {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+button.drum:hover {
+  background: linear-gradient(135deg, #764ba2, #667eea);
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer .footer-btn {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #667eea;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer .footer-btn:hover {
+  background-color: #764ba2;
+}
+
+#footer-display {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
